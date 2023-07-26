@@ -57,7 +57,7 @@ jobs:
           cat <<EOF > overrides.score.yaml
           apiVersion: score.dev/v1b1
           containers:
-            frontend:
+            c1:
               image: $AWS_ECR/$IMAGE:$TAG
           EOF
 
