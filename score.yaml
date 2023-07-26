@@ -15,7 +15,7 @@ containers:
     variables:
       Hello: World
     volumes:
-      vol1:
+    - vol1:
         source: "pvc-nik"
         target: "/data"
 
