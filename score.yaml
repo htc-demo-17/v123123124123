@@ -16,7 +16,7 @@ containers:
       Hello: World
     volumes:
       vol1:
-        source: pvc-nik
+        source: "pvc-nik"
         target: "/data"
 
 resources:
