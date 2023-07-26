@@ -1,3 +1,3 @@
-FROM busybox
+FROM registry.hub.docker.com/library/busybox
 
-CMD ["/bin/sh", "-c", "while true; do ls /data; sleep 5; done]
+CMD ["/bin/sh", "-c", "while true; echo HELLO; sleep 5; done]
